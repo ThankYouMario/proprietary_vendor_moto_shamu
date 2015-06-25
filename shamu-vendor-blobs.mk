@@ -41,11 +41,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/moto/shamu/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     vendor/moto/shamu/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
+    vendor/moto/shamu/proprietary/lib/hw/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so \
     vendor/moto/shamu/proprietary/lib/hw/sound_trigger.primary.shamu.so:system/lib/hw/sound_trigger.primary.shamu.so \
+    vendor/moto/shamu/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/moto/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/moto/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/moto/shamu/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/moto/shamu/proprietary/lib/soundfx/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so \
     vendor/moto/shamu/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/moto/shamu/proprietary/lib/soundfx/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/moto/shamu/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/moto/shamu/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/moto/shamu/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -112,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_frfr_1_0.raw \
     vendor/moto/shamu/proprietary/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw:system/vendor/moto/audiomonitor/sensory/svsid_triggerogn_ptbr_2_1.raw \
     vendor/moto/shamu/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/moto/shamu/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122_camcorder.so:system/vendor/lib/libactuator_lc898122_camcorder.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
     vendor/moto/shamu/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
@@ -232,9 +238,13 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/moto/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/moto/shamu/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg \
-    vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg:system/etc/diag/mdm/Connection_Issues_V6+DPL+UIM.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     vendor/moto/shamu/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
+    vendor/moto/shamu/proprietary/etc/diag/mdm/voice-call-min-log.cfg:system/etc/diag/mdm/voice-call-min-log.cfg \
     vendor/moto/shamu/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
     vendor/moto/shamu/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/moto/shamu/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -399,4 +409,5 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
-    vendor/moto/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd
+    vendor/moto/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
+    vendor/moto/shamu/proprietary/priv-app/SprintDM/SprintDM.apk:system/priv-app/SprintDM/SprintDM.apk
