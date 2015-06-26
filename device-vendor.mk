@@ -19,11 +19,17 @@ $(call inherit-product, vendor/moto/shamu/shamu-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    ConfigUpdater \
+    DMAgent \
+    DMConfigUpdate \
+    HiddenMenu \
     ims \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
-    TimeService
+    TimeService \
+    UiccWatchdog \
+    VZWAPNLib
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -38,9 +44,13 @@ PRODUCT_PACKAGES += \
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     BuaContactAdapter \
+    CNEService \
+    ConnMO \
+    DCMO \
+    DMService \
+    LifetimeData \
+    SprintDM \
     TriggerEnroll \
-    TriggerTrainingService
+    TriggerTrainingService \
+    VZWAPNService
 
-# Prebuilt vendor/libs needed for compilation
-PRODUCT_PACKAGES += \
-    libtime_genoff
