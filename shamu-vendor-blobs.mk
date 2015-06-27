@@ -236,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/moto/shamu/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/moto/shamu/proprietary/priv-app/BuaContactAdapter/BuaContactAdapter.apk:system/priv-app/BuaContactAdapter/BuaContactAdapter.apk \
     vendor/moto/shamu/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/moto/shamu/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/moto/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
@@ -309,12 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
     vendor/moto/shamu/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/moto/shamu/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
-    vendor/moto/shamu/proprietary/framework/com.motorola.ims.rcsmanager.jar:system/framework/com.motorola.ims.rcsmanager.jar \
-    vendor/moto/shamu/proprietary/framework/com.verizon.hardware.telephony.ehrpd.jar:system/framework/com.verizon.hardware.telephony.ehrpd.jar \
-    vendor/moto/shamu/proprietary/framework/com.verizon.hardware.telephony.lte.jar:system/framework/com.verizon.hardware.telephony.lte.jar \
-    vendor/moto/shamu/proprietary/framework/com.verizon.ims.jar:system/framework/com.verizon.ims.jar \
-    vendor/moto/shamu/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/moto/shamu/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/moto/shamu/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/moto/shamu/proprietary/vendor/lib/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so \
     vendor/moto/shamu/proprietary/vendor/lib/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so \
@@ -381,9 +374,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
     vendor/moto/shamu/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/moto/shamu/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/moto/shamu/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/moto/shamu/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/moto/shamu/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/moto/shamu/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/moto/shamu/proprietary/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat \
     vendor/moto/shamu/proprietary/vendor/firmware/atmel-a432-14103001-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14103001-0103aa-shamu.tdat \
@@ -412,8 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
     vendor/moto/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
-    vendor/moto/shamu/proprietary/priv-app/TriggerEnroll/TriggerEnroll.apk:system/priv-app/TriggerEnroll/TriggerEnroll.apk \
-    vendor/moto/shamu/proprietary/priv-app/TriggerTrainingService/TriggerTrainingService.apk:system/priv-app/TriggerTrainingService/TriggerTrainingService.apk \
     vendor/moto/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/moto/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/moto/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \

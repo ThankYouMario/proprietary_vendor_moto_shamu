@@ -54,3 +54,6 @@ PRODUCT_PACKAGES += \
     TriggerTrainingService \
     VZWAPNService
 
+# Prebuilt vendor/libs needed for compilation
+PRODUCT_PACKAGES += \
+    libtime_genoff
