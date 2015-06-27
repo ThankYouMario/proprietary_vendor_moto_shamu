@@ -19,9 +19,6 @@ $(call inherit-product, vendor/moto/shamu/shamu-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
-    ConfigUpdater \
-    DMAgent \
-    DMConfigUpdate \
     HiddenMenu \
     ims \
     RCSBootstraputil \
@@ -47,7 +44,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     ConnMO \
     DCMO \
-    DMService \
     LifetimeData \
     SprintDM \
     TriggerEnroll \

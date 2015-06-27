@@ -413,3 +413,4 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/bin/cnd:system/bin/cnd \
     vendor/moto/shamu/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/moto/shamu/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/moto/shamu/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so
