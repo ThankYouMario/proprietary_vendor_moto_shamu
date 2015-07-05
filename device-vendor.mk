@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     BuaContactAdapter \
     CNEService \
     ConnMO \
-    DCMO \
     LifetimeData \
     SprintDM \
     TriggerEnroll \
