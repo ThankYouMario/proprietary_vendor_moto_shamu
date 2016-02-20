@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,8 @@ $(call inherit-product, vendor/moto/shamu/shamu-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
+    DMConfigUpdate \
+    HiddenMenu \
     ims \
     TimeService \
     VZWAPNLib
@@ -36,7 +38,14 @@ PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
+    ConnMO \
+    CQATest \
+    DCMO \
+    DiagMon \
+    DMService \
+    LifetimeData \
     MotoSignatureApp \
+    SprintDM \
     TriggerEnroll \
     TriggerTrainingService \
     VZWAPNService
